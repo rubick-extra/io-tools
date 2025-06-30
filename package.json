@@ -1,0 +1,25 @@
+{
+  "name": "@rubick-extra/io-tools",
+  "pluginName": "io-tools",
+  "pluginType": "system",
+  "version": "1.0.0",
+  "description": "io-tools是rubick-extra提供的工具插件，主要用于处理io监听及触发",
+  "entry": "index.js",
+  "license": "MIT",
+  "author": "rubick-extra",
+  "postyalcpublish": "yarn",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.10",
+    "uiohook-napi": "^1.5.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.4",
+    "@types/node": "^22.15.29",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
