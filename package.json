@@ -2,7 +2,7 @@
   "name": "@rubick-extra/io-tools",
   "pluginName": "io-tools",
   "pluginType": "system",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "io-tools是rubick-extra提供的工具插件，主要用于处理io监听及触发",
   "entry": "index.js",
   "license": "MIT",
@@ -21,5 +21,18 @@
     "@types/node": "^22.15.29",
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
-  }
+  },
+  "files": [
+    "src",
+    "biome.json",
+    "index.js",
+    "index.js.map",
+    "LICENSE",
+    "README.md",
+    "tsconfig.json",
+    "use-io-events.js",
+    "use-io-events.js.map",
+    "vite.config.ts",
+    "yarn.lock"
+  ]
 }
