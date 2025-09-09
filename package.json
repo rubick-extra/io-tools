@@ -2,7 +2,7 @@
   "name": "@rubick-extra/io-tools",
   "pluginName": "io-tools",
   "pluginType": "system",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "io-tools是rubick-extra提供的工具插件，主要用于处理io监听及触发",
   "entry": "index.js",
   "license": "MIT",
